@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Almarai', sans-serif;
+}
+h1,h2 {
+    direction: rtl;
+}
+.bg-primary {
+    background-color: #811538 !important ;
+    color: #fff;
+}
+.bg-secondary{
+    background-color: #5b0d25 !important ;
+    color: #fff;
+
+}
+/* header */
+#logo {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    z-index: 10;
+}
+#logo img {
+    height: 300px;
+    -webkit-filter: drop-shadow(5px 5px 50px #222);
+    filter: drop-shadow(5px 5px 30px #222);
+    
+}
+header {
+    height: 20rem;
+    background-image: url(images/pattern.png);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 83%);
+    border-bottom: 20px solid #5b0d25;
+}
+#title-header {
+    margin-right: 100px;
+}
+#title-header h1:nth-child(1) {
+    font-size: 70px;
+    font-weight: 800;
+}
+#title-header h1:nth-child(2) {
+    font-size: 90px;
+    font-weight: 800;
+}
+
+#word {
+    display: flex;
+    justify-content: center;
+
+
+}
+#word img {
+    width: 500px;
+}
+/* // header // */
+
+/* ********************************************** */
+
+/* contant-groups */
+
+.card {
+    text-align: center;
+}
+.list-group-item .flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flag img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+.flag h5 {
+    margin: auto 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // contant-groups // */
+.rounded-pill{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
